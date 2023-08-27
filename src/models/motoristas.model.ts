@@ -1,11 +1,11 @@
 import mongoose from "mongoose";
-import {BasePedidos} from "./pedidos.model";
+import {Pedidos} from "./pedidos.model";
 
-export interface Motorista {
+export interface Motoristas {
         _id : mongoose.Types.ObjectId;
         "nombre" : string,
         "telefono" : string,
         "correo" : string,
         "imagen" : string,
-        "pedidosPendientes" : Array<BasePedidos>;
+        "pedidosPendientes" : Array<Pedidos>;
 }

@@ -9,7 +9,7 @@ export interface Cliente {
     "horaLimite" : string
 }
 
-export interface BasePedidos {
+export interface Pedidos {
     _id: mongoose.Types.ObjectId,
     "producto": string,
     "imagen":string,
